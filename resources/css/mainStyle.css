@@ -1,2 +1,22 @@
-<--!
-{}
+/*Estilo principal*/
+header{
+background-color: blue;
+color:white;
+text-align: center;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 24px;
+}
+nav{
+background-color: teal;
+color:blue;
+text-align: center;
+font-family: sans-serif;
+}
+body{
+font-family: sans-serif;
+}
+footer{
+background-color: black;
+color:white;
+}
