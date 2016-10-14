@@ -8,11 +8,11 @@ header{
 
 }
 a:link{
-color: white;
-text-decoration: none;
+	color: white;
+	text-decoration: none;
 }
 a:visited{
-color: #003399;
+	color: #003399;
 }
 
 nav{
@@ -26,7 +26,7 @@ body{
 	background: linear-gradient(#FFFFFF, #33cccc,#003399,#000000); 
 }
 section{
-       text-align:justify;
+	text-align:justify;
 	margin-right: 15%;
 	padding: 5px;
 	
@@ -59,44 +59,44 @@ html, body {
 
 
 .button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #003399;
-  text-align: center;
-  border: none;
-  color: #FFFFFF;
-  font-size: 12px;
-  width: 100px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 2px;
+	display: inline-block;
+	border-radius: 4px;
+	background-color: #003399;
+	text-align: center;
+	border: none;
+	color: #FFFFFF;
+	font-size: 12px;
+	width: 100px;
+	transition: all 0.5s;
+	cursor: pointer;
+	margin: 2px;
 }
 
 .button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
 }
 
 .button span:after {
-  content: "»";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -10px;
-  transition: 0.5s;
-  background-color:  #003399;
+	content: "»";
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -10px;
+	transition: 0.5s;
+	background-color:  #003399;
 }
 
 .button:hover span {
-  padding-right: 10px;
+	padding-right: 10px;
 }
 
 .button:hover span:after {
-  opacity: 1;
-  background-color: #003399;
-  right: 0;
+	opacity: 1;
+	background-color: #003399;
+	right: 0;
 }
 
 
