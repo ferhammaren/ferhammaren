@@ -34,7 +34,7 @@ section{
 	width: 40%;
 }
 aside{
-display:flex;
+display:block;
 	margin-left: 10%;
     float:left;
 	text-align: center;
