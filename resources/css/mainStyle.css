@@ -1,7 +1,6 @@
 /*Estilo principal, hopulega-chan*/
 header{
-	background-color: #33cccc;
-	color:white;
+	color:#33cccc;
 	text-align: center;
 	font-family: sans-serif;
 	font-weight: bold;
@@ -27,13 +26,20 @@ body{
 	background: linear-gradient(#FFFFFF, #33cccc,#003399,#000000); 
 }
 section{
+	margin-left: 20%;
+	margin-right: 30%;
+	padding: 5px;
+	float:center;
 	align-content: right;
 	background-color: rgba(255,255, 255,0.7);
-	width: 80%;
+	width: 60%;
 }
 aside{
+	float:left;
 	display: block;
-	text-align: justify;
+	padding-right: 10px;
+	margin-left: 30px;
+	text-align: center;
 	width: 13%;
 	height: 100%;
 	background-color: rgba(255, 255, 255,0.7);
@@ -107,5 +113,9 @@ html, body {
 }
 #sideHeader{
 	background-color: #33cccc;
+	color:white;
 	border-radius: 15px;
+}
+.twitter-timeline{
+	max-height: 100px;
 }
