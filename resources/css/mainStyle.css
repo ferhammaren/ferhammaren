@@ -26,18 +26,24 @@ body{
 	background: linear-gradient(#FFFFFF, #33cccc,#003399,#000000); 
 }
 section{
-	text-align:justify;
-	margin-right: 20%;
+	float:right;
+		margin-right: 20%;
+		padding: 5px;
+		text-align:justify;
+	/*
+
 	margin-left: 35%;
-	padding: 5px;
+	*/
 	background-color: rgba(255,255, 255,0.7);
-	width: 40%;
+	width: 50%;
 }
 aside{
-display:block;
+	float:left;
 	margin-left: 10%;
-    float:left;
 	text-align: center;
+	/*
+	
+	margin-right: 70%;*/
 	background-color: rgba(255, 255, 255,0.7);
 	border-radius: 15px 15px 5px 5px; 
 }
@@ -51,7 +57,6 @@ footer{
 html, body {
 	height: 100%;
 }
-
 
 .button {
 	display: inline-block;
