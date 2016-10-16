@@ -23,10 +23,10 @@ nav{
 }
 body{
 	font-family: sans-serif;
-	background: linear-gradient(#FFFFFF, #2c9287,#282755,#000000); 
-	background-image: "http://ferhammaren.github.io/resources/images/themes/hlHeader.png";
+	background-image:  url("http://ferhammaren.github.io/resources/images/themes/hlHeader.png"),linear-gradient(#FFFFFF, #2c9287,#282755,#000000);
 	background-attachment: fixed;
-	background-position: bottom left; 
+	background-repeat: no-repeat;
+	background-position: bottom right; 
 }
 section{
 	float:right;
@@ -120,5 +120,5 @@ html, body {
 	border-radius: 15px;
 }
 .twitter-timeline{
-	max-height: 150px;
+	max-height: 200px;
 }
