@@ -24,7 +24,7 @@ nav{
 body{
 	font-family: sans-serif;
 	background: linear-gradient(#FFFFFF, #2c9287,#282755,#000000); 
-	background-image: "resources/images/themes/hlHeader.png";
+	background-image: "http://ferhammaren.github.io/resources/images/themes/hlHeader.png";
 	background-attachment: fixed;
 	background-position: bottom left; 
 }
